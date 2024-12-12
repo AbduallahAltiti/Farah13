@@ -1,0 +1,88 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            background-color: #333;
+            color: white;
+            width: 250px;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #575757;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .statistics {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .stat-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        .quick-links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .quick-links ul li {
+            margin: 10px 0;
+        }
+
+        .quick-links ul li a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            background-color: #e4e4e4;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .quick-links ul li a:hover {
+            background-color: #ddd;
+        }
+  

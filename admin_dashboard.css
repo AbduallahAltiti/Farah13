@@ -1,0 +1,108 @@
+/* الأساسيات */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* الخلفية */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+}
+
+/* العنوان */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+/* الإحصائيات */
+.stats {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stats h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #16a085;
+}
+
+.stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stats li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.stats li:last-child {
+    border-bottom: none;
+}
+
+/* الإجراءات */
+.actions {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.actions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #16a085;
+}
+
+.actions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.actions li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.actions li:hover {
+    background-color: #16a085;
+    color: #fff;
+}
+
+.actions li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+
+/* تسجيل الخروج */
+.logout {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logout a {
+    font-size: 18px;
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
